@@ -1,0 +1,58 @@
+intents:
+ - greet
+ - bye
+ - deny
+ - thank
+ - app
+ - search_resto
+ - cuisine
+ - location
+
+actions:
+ # all the utter actions from the templates, plus any custom actions
+ - utter_greet
+ - utter_thank
+ - utter_bye
+ - utter_deny
+ - utter_app
+ - utter_location
+ - utter_search_resto
+ - utter_cuisine
+
+templates:
+  # templates the bot should respond with
+  utter_greet:
+    - "Hey, how can I help you?"
+  utter_thank:
+    - "You're welcome!"
+  utter_bye:
+    - "Goodbye"
+  utter_deny:
+    - "ok"
+  utter_app:
+    - "for which application"
+  utter_cuisine:
+    - "the best restaurant you can find here  (https://google.com/restaurant/)"
+  utter_search_resto:
+    - "the best restaurant you can find here  https://google.com/restaurant/"
+  utter_location:
+    - "hi"
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
