@@ -1,0 +1,321 @@
+{
+  "rasa_nlu_data": {
+   "common_examples": [
+{
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+},
+{
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+},
+{
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+},
+{
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+},
+{
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+{
+        "text": "hola",
+        "intent": "greet",
+        "entities": []
+      },
+{
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+{
+        "text": "good night",
+        "intent": "greet",
+        "entities": []
+      },
+{
+        "text": "Hey",
+        "intent": "greet",
+        "entities": []
+      },
+{
+        "text": "hi there",
+        "intent": "greet",
+        "entities": []
+      },
+{
+        "text": "HELLO",
+        "intent": "greet",
+        "entities": []
+      },
+{
+        "text": "hi bot",
+        "intent": "greet",
+        "entities": []
+      },
+{
+	"text":"no"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"definitely not"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"never"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"absolutely not"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"i don't think so"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"i'm afraid not"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"no sir"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"no ma'am"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"no way"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"no sorry"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"No, not really"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"nah not for me"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"nah"
+	"intent":"deny"
+	"entities":[]
+},
+{
+	"text":"Thanks"
+	"intent":"thank"
+	"entities":[]
+},
+{
+	"text":"Thank you"
+	"intent":"thank"
+	"entities":[]
+},
+{
+	"text":"Thank you so much"
+	"intent":"thank"
+	"entities":[]
+},
+{
+	"text":"Thanks bot"
+	"intent":"thank"
+	"entities":[]
+},
+{
+	"text":"cheers"
+	"intent":"thank"
+	"entities":[]
+},
+{
+	"text":"cheers bro"
+	"intent":"thank"
+	"entities":[]
+},
+{
+	"text":"ok thanks!"
+	"intent":"thank"
+	"entities":[]
+},
+{
+	"text":"perfect thank you"
+	"intent":"thank"
+	"entities":[]
+},
+{
+	"text":"amazing thanks"
+	"intent":"thank"
+	"entities":[]
+},
+{
+	"text":"cool, Thanks"
+	"intent":"thank"
+	"entities":[]
+},
+{
+	"text":"cool thank you"
+	"intent":"thank"
+	"entities":[]
+},
+{
+	"text":"thanks a bunch for everything"
+	"intent":"thank"
+	"entities":[]
+},
+
+{
+	"text":"Bye"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"Goodbye"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"See you later"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"Bye bot"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"ggod bye friend"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"bye for now"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"catch you later"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"bye for now"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"gotta go"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"See you"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"I'm off"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"have a nice day"
+	"intent":"bye"
+	"entities":[]
+},
+{
+	"text":"we'll speak soon"
+	"intent":"bye"
+	"entities":[]
+},
+
+{
+	"text":"app not working"
+	"intent":"app"
+	"entities":[]
+},
+
+
+{
+	"text":"I'm looking for restaurant"
+	"intent":"search_resto"
+	"entities":[
+	{
+		"start":17
+		"end":26
+		"value":"restaurant"
+		"entitiy":"restaurant_search"
+	}
+	]
+},
+{
+	"text":"I'm looking for Chinese restaurant"
+	"intent":"search_resto"
+	"entities":[
+	{
+		"start":17
+		"end":26
+		"value":"restaurant"
+		"entity":"restaurant_search"
+	},
+	{
+		"start":17
+		"end":23
+		"value":"cuisine"
+		"entity":"restaurant_search"
+	}
+	]
+},
+{
+	"text":"I'm looking for Chinese restaurant in BTM"
+	"intent":"search_resto"
+	"entities":[
+	{
+		"start":17
+		"end":26
+		"value":"restaurant"
+		"entity":"restaurant_search"
+	},
+	{
+		"start":17
+		"end":23
+		"value":"cuisine"
+		"entity":"restaurant_search"
+	},
+	{
+		"start":39
+		"end":41
+		"value":"location"
+		"entity":"restaurant_search"
+	}
+	]
+},
+]
+}
+}
+
+
